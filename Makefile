@@ -10,4 +10,4 @@ bash:
 	@docker-compose exec go bash
 
 run:
-	@docker-compose exec go bash -c "go run main.go"
+	@docker-compose exec go bash -c "go run wiki.go"
